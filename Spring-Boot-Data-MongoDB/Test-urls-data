@@ -1,0 +1,13 @@
+http://localhost:8080/user   -- get all users the data
+http://localhost:8080/user/create
+{
+  "name": "pradeep",
+  "userSettings": {
+    "bike": "honda"
+  }
+}
+http://localhost:8080/user/5b28fb7d02cc6623001eab20   -- get data for selected user
+http://localhost:8080/user/settings/5b28fb7d02cc6623001eab20   -- get user settings for selected user
+http://localhost:8080/user/settings/5b28fb7d02cc6623001eab20/bike  -- get user settings based on key
+
+http://localhost:8080/user/settings/5b28fb7d02cc6623001eab20/car/creta  -- add new user setting
