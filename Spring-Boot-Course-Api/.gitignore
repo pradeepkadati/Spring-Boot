@@ -1,0 +1,13 @@
+# Compiled class file
+
+*.class
+*.classpath
+*.project
+# Log file
+
+*.log
+nb-configuration.xml
+**/target
+**/.settings
+**/messenger-master
+**/.mvn
