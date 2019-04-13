@@ -1,4 +1,4 @@
-package com.sb.course.api;
+package org.kp.course.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

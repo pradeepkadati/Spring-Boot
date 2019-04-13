@@ -1,4 +1,4 @@
-package com.sb.course.api;
+package org.kp.course.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

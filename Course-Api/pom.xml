@@ -8,8 +8,8 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sb.course.api</groupId>
-	<artifactId>Spring-Boot-Course-Api</artifactId>
+	<groupId>org.kp.course.api</groupId>
+	<artifactId>course-api</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>Spring-Boot-Course-Api</name>
 	<description>Demo project for Spring Boot</description>
@@ -23,6 +23,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+                <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+                </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -34,6 +38,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+                
+                <dependency>
+                    <groupId>org.apache.derby</groupId>
+                    <artifactId>derby</artifactId>
+                    <scope>runtime</scope>
+                </dependency>
 	</dependencies>
 
 	<build>
